@@ -1,0 +1,10 @@
+message BallInfo {
+    required int32 id = 1;
+    required double r = 2;
+    required double x = 3;
+    required double y = 4;
+}
+
+message BallsInfo {
+    repeated BallInfo ball = 1;
+}
